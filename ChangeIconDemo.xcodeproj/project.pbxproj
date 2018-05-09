@@ -7,16 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D9FB10DB20A3026100D21BE0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D9FB10DA20A3026100D21BE0 /* AppDelegate.m */; };
-		D9FB10DE20A3026100D21BE0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9FB10DD20A3026100D21BE0 /* ViewController.m */; };
-		D9FB10E120A3026100D21BE0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9FB10DF20A3026100D21BE0 /* Main.storyboard */; };
-		D9FB10E320A3026100D21BE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9FB10E220A3026100D21BE0 /* Assets.xcassets */; };
-		D9FB10E620A3026100D21BE0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9FB10E420A3026100D21BE0 /* LaunchScreen.storyboard */; };
-		D9FB10E920A3026100D21BE0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D9FB10E820A3026100D21BE0 /* main.m */; };
+		D9FB10F220A3036600D21BE0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9FB10DD20A3026100D21BE0 /* ViewController.m */; };
+		D9FB10F320A3036600D21BE0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D9FB10E820A3026100D21BE0 /* main.m */; };
+		D9FB10F420A3036600D21BE0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D9FB10DA20A3026100D21BE0 /* AppDelegate.m */; };
+		D9FB10F720A3036600D21BE0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9FB10E420A3026100D21BE0 /* LaunchScreen.storyboard */; };
+		D9FB10F820A3036600D21BE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9FB10E220A3026100D21BE0 /* Assets.xcassets */; };
+		D9FB10F920A3036600D21BE0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9FB10DF20A3026100D21BE0 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		D9FB10D620A3026100D21BE0 /* ChangeIconDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChangeIconDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9FB10D920A3026100D21BE0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D9FB10DA20A3026100D21BE0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		D9FB10DC20A3026100D21BE0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
@@ -26,10 +25,12 @@
 		D9FB10E520A3026100D21BE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D9FB10E720A3026100D21BE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D9FB10E820A3026100D21BE0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D9FB10FE20A3036600D21BE0 /* ChangeIconDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChangeIconDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9FB10FF20A3036600D21BE0 /* ChangeIconDemo copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "ChangeIconDemo copy-Info.plist"; path = "/Users/denglibing/Desktop/ChangeIconDemo/ChangeIconDemo copy-Info.plist"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		D9FB10D320A3026100D21BE0 /* Frameworks */ = {
+		D9FB10F520A3036600D21BE0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -44,13 +45,14 @@
 			children = (
 				D9FB10D820A3026100D21BE0 /* ChangeIconDemo */,
 				D9FB10D720A3026100D21BE0 /* Products */,
+				D9FB10FF20A3036600D21BE0 /* ChangeIconDemo copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
 		D9FB10D720A3026100D21BE0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D9FB10D620A3026100D21BE0 /* ChangeIconDemo.app */,
+				D9FB10FE20A3036600D21BE0 /* ChangeIconDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -74,13 +76,14 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D9FB10D520A3026100D21BE0 /* ChangeIconDemo */ = {
+		D9FB10F020A3036600D21BE0 /* ChangeIconDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D9FB10EC20A3026100D21BE0 /* Build configuration list for PBXNativeTarget "ChangeIconDemo" */;
+			buildConfigurationList = D9FB10FB20A3036600D21BE0 /* Build configuration list for PBXNativeTarget "ChangeIconDemo" */;
 			buildPhases = (
-				D9FB10D220A3026100D21BE0 /* Sources */,
-				D9FB10D320A3026100D21BE0 /* Frameworks */,
-				D9FB10D420A3026100D21BE0 /* Resources */,
+				D9FB10F120A3036600D21BE0 /* Sources */,
+				D9FB10F520A3036600D21BE0 /* Frameworks */,
+				D9FB10F620A3036600D21BE0 /* Resources */,
+				D9FB10FA20A3036600D21BE0 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -88,7 +91,7 @@
 			);
 			name = ChangeIconDemo;
 			productName = ChangeIconDemo;
-			productReference = D9FB10D620A3026100D21BE0 /* ChangeIconDemo.app */;
+			productReference = D9FB10FE20A3036600D21BE0 /* ChangeIconDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -100,9 +103,8 @@
 				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = Midea;
 				TargetAttributes = {
-					D9FB10D520A3026100D21BE0 = {
-						CreatedOnToolsVersion = 9.2;
-						ProvisioningStyle = Automatic;
+					D9FB10F020A3036600D21BE0 = {
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -119,32 +121,48 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D9FB10D520A3026100D21BE0 /* ChangeIconDemo */,
+				D9FB10F020A3036600D21BE0 /* ChangeIconDemo */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		D9FB10D420A3026100D21BE0 /* Resources */ = {
+		D9FB10F620A3036600D21BE0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D9FB10E620A3026100D21BE0 /* LaunchScreen.storyboard in Resources */,
-				D9FB10E320A3026100D21BE0 /* Assets.xcassets in Resources */,
-				D9FB10E120A3026100D21BE0 /* Main.storyboard in Resources */,
+				D9FB10F720A3036600D21BE0 /* LaunchScreen.storyboard in Resources */,
+				D9FB10F820A3036600D21BE0 /* Assets.xcassets in Resources */,
+				D9FB10F920A3036600D21BE0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		D9FB10FA20A3036600D21BE0 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/iconChange.sh\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		D9FB10D220A3026100D21BE0 /* Sources */ = {
+		D9FB10F120A3036600D21BE0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D9FB10DE20A3026100D21BE0 /* ViewController.m in Sources */,
-				D9FB10E920A3026100D21BE0 /* main.m in Sources */,
-				D9FB10DB20A3026100D21BE0 /* AppDelegate.m in Sources */,
+				D9FB10F220A3036600D21BE0 /* ViewController.m in Sources */,
+				D9FB10F320A3036600D21BE0 /* main.m in Sources */,
+				D9FB10F420A3036600D21BE0 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,29 +292,35 @@
 			};
 			name = Release;
 		};
-		D9FB10ED20A3026100D21BE0 /* Debug */ = {
+		D9FB10FC20A3036600D21BE0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = ChangeIconDemo/Info.plist;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = B9FH944VTE;
+				INFOPLIST_FILE = "ChangeIconDemo copy-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.midea.ChangeIconDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.msmart.meiju.inhouse;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				PROVISIONING_PROFILE = "3b3e3fb5-d9b5-436e-97fa-77f1134ecdeb";
+				PROVISIONING_PROFILE_SPECIFIER = wildcard_dev;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
-		D9FB10EE20A3026100D21BE0 /* Release */ = {
+		D9FB10FD20A3036600D21BE0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = ChangeIconDemo/Info.plist;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = B9FH944VTE;
+				INFOPLIST_FILE = "ChangeIconDemo copy-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.midea.ChangeIconDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.msmart.meiju.inhouse;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				PROVISIONING_PROFILE = "3b3e3fb5-d9b5-436e-97fa-77f1134ecdeb";
+				PROVISIONING_PROFILE_SPECIFIER = wildcard_dev;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -312,11 +336,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D9FB10EC20A3026100D21BE0 /* Build configuration list for PBXNativeTarget "ChangeIconDemo" */ = {
+		D9FB10FB20A3036600D21BE0 /* Build configuration list for PBXNativeTarget "ChangeIconDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D9FB10ED20A3026100D21BE0 /* Debug */,
-				D9FB10EE20A3026100D21BE0 /* Release */,
+				D9FB10FC20A3036600D21BE0 /* Debug */,
+				D9FB10FD20A3036600D21BE0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
