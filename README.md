@@ -61,3 +61,4 @@ echo "============================================================"
 
 [如何在运行时改变App的图标](https://www.jianshu.com/p/ed29cd01acf6)
 
+[测试代码地址](https://github.com/erduoniba/ChangeIconDemo)
